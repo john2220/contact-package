@@ -1,0 +1,19 @@
+{
+    "name": "blog/contact",
+    "description": "send mail",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jonnyboy",
+            "email": "johnjohn_raptis@yahoo.gr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+       "autoload": {
+        "psr-4": {
+            "Blog\\Contact\\": "src/"
+        }
+    }
+}

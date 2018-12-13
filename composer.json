@@ -11,9 +11,16 @@
     ],
     "minimum-stability": "dev",
     "require": {},
-       "autoload": {
+    "autoload": {
         "psr-4": {
             "Blog\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Blog\\Contact\\ContactServiceProvider"
+            ]
         }
     }
 }
